@@ -8,6 +8,8 @@ This code is finding the maximum subarray in an array using both brute force and
 
 * hashing
 
+This is C code which seems to be implementing a hash table data structure. The code appears to read in data from a file `Sample.txt`, store it in a linked list, and then use the elements of the linked list to populate a hash table. The hash table uses chaining to handle collisions. The code also includes a function to print the contents of the linked list and a function to find an element in the hash table using its key. It is not clear what the purpose or functionality of the code is without more context.
+
 * graphApplication
 
 This code is an implementation of a social network. It reads data from a file called `socialNET.txt`, which contains the names and surnames of people and the IDs of people they follow. The code creates an array of people and a linked list of IDs for each person representing the IDs of the people they follow. It also includes functions to add and remove people from the queue, creating a new person, printing a person's information, and reading data from the file.
@@ -19,3 +21,20 @@ The main function reads the data from the file, creates an array of people, and 
 This code is an implementation of a backtracking algorithm for solving a color puzzle. The puzzle consists of a square board where each cell can be colored with one of the given number of colors. The goal is to color the board in such a way that no two adjacent cells have the same color. The code allows the user to input the size of the board and the colors for each cell, and then uses backtracking to find a solution for the puzzle or determine that no solution exists.
 
 The main function allows the user to choose between two modes: a detailed mode that shows the steps of the backtracking algorithm and a normal mode that only displays the final solution. The function `sifirDizisi` allocates memory for an array of integers and initializes all elements to 0. The function `menu` prompts the user to input the size of the board and the colors for each cell, and stores them in a 2D array called `masa`. The function `renkleriYazdir` prints the current state of the board. The function `cozumVarMi` uses backtracking to find a solution for the puzzle or determine that no solution exists. The function `validMi` checks if a given color can be assigned to a cell based on the current state of the board.
+
+## How It Works
+You can use with numerical commands in terminal. 
+
+## How Can I Run
+
+### Prerequisites
+
+* Use `C99` standart 
+* Download `GCC`  or `MingW32` Compiler 
+
+```
+git clone https://github.com/kaayra2000/algorithm-analysis-homeworks/
+cd algorithm-analysis-homeworks
+gcc xxxx.c -o main.exe
+main.exe
+```
