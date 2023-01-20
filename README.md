@@ -10,4 +10,12 @@ This code is finding the maximum subarray in an array using both brute force and
 
 * graphApplication
 
+This code is an implementation of a social network. It reads data from a file called `socialNET.txt`, which contains the names and surnames of people and the IDs of people they follow. The code creates an array of people and a linked list of IDs for each person representing the IDs of the people they follow. It also includes functions to add and remove people from the queue, creating a new person, printing a person's information, and reading data from the file.
+
+The main function reads the data from the file, creates an array of people, and a linked list of IDs for each person. Then it calculates the indegree of each person in the network, which is the number of people following a person, and uses this information to find the people with the most followers. Finally, it prints the names of the people with the highest indegree.
+
 * backTracking
+
+This code is an implementation of a backtracking algorithm for solving a color puzzle. The puzzle consists of a square board where each cell can be colored with one of the given number of colors. The goal is to color the board in such a way that no two adjacent cells have the same color. The code allows the user to input the size of the board and the colors for each cell, and then uses backtracking to find a solution for the puzzle or determine that no solution exists.
+
+The main function allows the user to choose between two modes: a detailed mode that shows the steps of the backtracking algorithm and a normal mode that only displays the final solution. The function `sifirDizisi` allocates memory for an array of integers and initializes all elements to 0. The function `menu` prompts the user to input the size of the board and the colors for each cell, and stores them in a 2D array called `masa`. The function `renkleriYazdir` prints the current state of the board. The function `cozumVarMi` uses backtracking to find a solution for the puzzle or determine that no solution exists. The function `validMi` checks if a given color can be assigned to a cell based on the current state of the board.
